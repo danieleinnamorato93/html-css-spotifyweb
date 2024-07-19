@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1080px;
+}
+
+footer {
+    background-color: brown;
+    min-height: 100px;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+   
+
+}
+
+.footer-left {
+    border: 2px dashed;
+    min-width: 60px;
+}
+.footer-center {
+    border: 2px dashed;
+    min-width: 60px;
+}
+
+.footer-right {
+    
+  border: 2px dashed;
+  min-width: 60px;
+}
+

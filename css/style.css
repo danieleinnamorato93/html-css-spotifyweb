@@ -21,6 +21,16 @@ ul {
     padding-top: 10px;
 
 }
+#most_popular .card {
+    background-color: darkcyan;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
 
 
 
@@ -123,13 +133,40 @@ footer {
 
 }
 
+#footer .card {
+    height: 50px;
+    width: 50px;
+}
+
+
+
 .footer-left {
     border: 2px dashed;
     min-width: 60px;
+    display: flex;
+    gap: 10px;
+    
+
 }
 .footer-center {
+    flex-grow: 1;
     border: 2px dashed;
     min-width: 60px;
+}
+
+.commands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.time-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer-right {
@@ -138,3 +175,9 @@ footer {
   min-width: 60px;
 }
 
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -31,6 +31,13 @@ ul {
 img {
     max-width: 100%;
 }
+button {
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
 
 
 
@@ -126,7 +133,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     gap: 10px;
     z-index: 3;
    
@@ -152,6 +159,7 @@ footer {
     flex-grow: 1;
     border: 2px dashed;
     min-width: 60px;
+    align-self: flex-start;
 }
 
 .commands {

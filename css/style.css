@@ -34,10 +34,27 @@ img {
 button {
     border-radius: 20px;
     border: 1px solid white;
-    height: 40px;
+    padding: 4px 8px;
     background-color: transparent;
     color: white;
+    margin-right: 1px;
 }
+hr {
+    width: 30px;
+    border-color: #ADFF2F;
+}
+.small-logo {
+    display: block;
+    max-width: 40%;
+} 
+.large-logo {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+
 
 
 
@@ -70,7 +87,7 @@ main {
 
 .sidebar {
     background-color: black;
-    min-width: 5%;
+    width: 10%;
     min-height: 100%;
     position: fixed;
     top: 0px;
@@ -79,10 +96,27 @@ main {
     padding-bottom: 30px;
     color: white;
     z-index: 2;
+    text-align: center;
 }
-.bottom {
-    display:none ;
+
+.fa-house {
     margin-top: 10px;
+}
+.fa-regular {
+    margin-bottom: 8px;
+}
+
+.fa-solid {
+    margin-bottom: 8px;
+}
+
+.side-center {
+    visibility: hidden; 
+    margin-top: 10px;
+}
+
+.side-bottom {
+    margin-top: 230px;
 }
 
  .cat-flex { 
@@ -95,6 +129,7 @@ main {
 }
 .cat-flex li {
     font-size: 20px;
+    color: lightgrey;
 }
 .row {
     display: flex;
@@ -111,12 +146,11 @@ main {
     width: 200px;
     text-align: center;
 }
-
 .square {
-    width: 150px;
     height: 150px;
-    background-color: red;
+    width: 150px;
 }
+
 
 
 

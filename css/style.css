@@ -25,9 +25,10 @@ main {
     min-height: 100vh;
 }
 .container{
-    max-width: 80%;
+    max-width: 75%;
     min-height: 500px;
     margin: 100px auto;
+    padding: 5px;
     border: 2px dashed;
 }
 
@@ -42,7 +43,6 @@ main {
     left: -205px;
     text-align: right;
     line-height: 10vh;
-    z-index: 1;
 }
         
 
@@ -67,7 +67,28 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    border: 2px dashed;
 
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.col {
+    flex-basis: calc(100 / 6 - 25px / 6);
+}
+.card {
+    background-color: darkcyan;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
 
 

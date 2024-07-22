@@ -47,6 +47,9 @@ body {
     img {
         max-width: 100%;
     }
+    a {text-decoration: none;
+        color: #7b7777;
+    }
     h3 , h4 ,h5 ,h6 {
         color: white;
     }
@@ -147,9 +150,10 @@ body {
         visibility: hidden;
         display:flex;
         flex-direction:column;
-        gap: ;
+        gap: 10px;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-grow: 1;
        
        
     }
@@ -173,11 +177,17 @@ body {
         font-size: 30px;
         margin-bottom: 5px;
     }
-  
+    .
     .side-bottom li {
         margin-left: 0px;
         padding-left: 0px;
+        
     }
+    .hidden-bar {
+        background-color:#7b7777;
+        width: 100px;
+        border: 1px;
+        display: none;    }
 /*Categories*/
 
     .cat-flex { 
@@ -211,7 +221,11 @@ body {
             gap: 10px;
         }
         .row-2 {
+          
             display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0px;
+      
           
         }
         .col {
@@ -221,7 +235,7 @@ body {
             flex-basis: calc(100% / 2);
         }
         .card {
-            width: 160px;
+            min-width: 130px;
             text-align: center;
         }
         .square {
@@ -229,21 +243,25 @@ body {
             max-width: 170px;
             margin-bottom: 10px;
         }
+        .mini-square {
+          
+            max-width: 30px;
+        }
         .circle {
-            background-color: darkcyan;
-           
-            min-width: 200px;
+            max-height: 170px;
+            max-width: 170px;
             border-radius: 50%;
             text-align: center;
         }
-       
+       #made_for .square img {
+        width: 100%;
+        height: auto;
+        display: block;
+       }
 
         /*Footer*/
         
-        #footer .card {
-            height: 30px;
-            width: 30px;
-        }
+        
         
         
         
@@ -253,6 +271,7 @@ body {
             display: flex;
             gap: 10px;
             margin-left: 2px;
+            align-items: center;
             
         
         }

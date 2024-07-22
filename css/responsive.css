@@ -1,5 +1,6 @@
 @media screen and (min-width: 576px) {
 .sidebar {width: 130px;
+    padding: 0px 6px;
 }
 
 .side-top {
@@ -12,6 +13,7 @@
 .side-center , .side-top , li {
     padding-left: 0px;
     margin: 0px;
+    margin-top: 10px;
 }
 
 .side-bottom {
@@ -21,6 +23,7 @@
     justify-content: left;
     padding-top: 2px;
     margin: 0;
+    gap: 10px;
 }
 
 .side-top li:nth-child(2) i::after {
@@ -44,3 +47,36 @@
     margin-left: 2px;
    font-family: 'Montserrat';
 }
+
+.small-logo {
+    display: block;
+    display: none;
+    width: 25px}
+
+.large-logo {
+    display: block;
+    max-width: 120px;
+}
+
+.side-top{
+    margin-top: 15px;
+}
+.hidden-bar {
+    
+    display: block; }
+
+    .side-bottom li:first-child i::after {
+        content: ' Installa App';
+        color: gray;
+        font-size: 10px;
+        margin-left: 2px;
+        font-family: 'Montserrat';
+    }
+
+    .side-bottom li:last-child i::after {
+        content: ' John Doe';
+        color: white;
+        font-size: 10px;
+        margin-left: 2px;
+        font-family: 'Montserrat';
+    }

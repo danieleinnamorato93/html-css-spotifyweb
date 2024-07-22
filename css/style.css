@@ -37,19 +37,98 @@ body {
         color: white;
     }
 
+    img {
+        max-width: 100%;
+    }
+    h3 {
+        color: white;
+        padding-left: 10px;
+    }
+    h4 {
+        font-size: 11px;
+        color: white;
+    }
+   .sidebar li {
+        font-size: 12px;
+    }
+    
+    h5 , h6 {
+        color: white;
+    }
+    
+    ul {
+        list-style-type: none;
+        color: white;
+        padding-inline-start: 0px
+    }
+
     .top-content {
         height: calc(100vh - 100px);
         background-color: #141922;
         display: flex;
         overflow-y: auto;
         }
+    
+
+    .small-logo {
+        display: block;
+        display: block;
+        width: 25px;
+    } 
+    .large-logo {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } 
+    .fa-house {
+        margin-top: 10px;
+    }
+    .fa-regular {
+        margin-bottom: 8px;
+    }
+    footer .fa-regular{
+        margin: 0;
+    
+    }
+      
+    .fa-solid {
+        margin-bottom: 8px;
+    }
+
     .sidebar {
         flex-shrink: 0;
         flex-basis: 50px;
         background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .side-top {
+        display: flex;
+    flex-direction: column;
+    }
+    
+   
+    .side-center {
+        /*visibility: hidden*/; 
+        margin-top: 10px;
+        border: 2px dashed;
     }
 
+    .add {
+        height: 30px;
+        width: 30px;
+        background-color: grey;
+        text-align: center;
+        line-height: 30px;
+        font-size: 30px;
+    }
     
+    .side-bottom {
+        border: 2px dashed;
+    }
+ 
 /*    
 }
 h3 {
@@ -81,17 +160,8 @@ ul {
     border-radius: 50%;
     text-align: center;
 }
-img {
-    max-width: 100%;
-}
-button {
-    border-radius: 20px;
-    border: 1px solid white;
-    padding: 4px 8px;
-    background-color: transparent;
-    color: white;
-    margin-right: 1px;
-}
+
+
 hr {
     width: 30px;
     border-color: #ADFF2F;

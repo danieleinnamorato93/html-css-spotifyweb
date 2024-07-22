@@ -137,22 +137,28 @@ body {
     align-items: flex-start;
     padding-top: 2px;
    
+  
+   
     }
+   
     
    
     .side-center {
         visibility: hidden;
         display:flex;
         flex-direction:column;
-        margin-top: 10px;
+        gap: ;
         justify-content: flex-start;
         align-items: flex-start;
        
+       
     }
+
    
 
     .create {
         display: flex;
+        align-items: center;
         
     }
     .add {
@@ -168,8 +174,9 @@ body {
         margin-bottom: 5px;
     }
   
-    .side-bottom {
-       
+    .side-bottom li {
+        margin-left: 0px;
+        padding-left: 0px;
     }
 /*Categories*/
 
@@ -301,236 +308,3 @@ body {
     
 
  
-/*    
-}
-h3 {
-    color: white;
-    padding-left: 10px;
-}
-
-h5 , h6 {
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-    color: white;
-    padding-inline-start: 0px
-}
-
-.txt-gray {
-    color: #3d3d3d;
-}
-#recently_played > h3 {
-    padding-top: 10px;
-
-}
-.circle {
-    background-color: darkcyan;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    text-align: center;
-}
-
-
-hr {
-    width: 30px;
-    border-color: #ADFF2F;
-}
-.small-logo {
-    display: block;
-    max-width: 40%;
-} 
-.large-logo {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-} 
-
-
-
-
-
-
-
-main {
-    min-height: 100vh;
-}
-.container{
-    max-width: 80%;
-    min-height: 500px;
-    margin: 100px auto;
-    padding: 5px;
-}
-
-.topbar {
-    max-height: 10vh;
-    min-width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    left: -205px;
-    text-align: right;
-    line-height: 10vh;
-}
-        
-
-.sidebar {
-    background-color: black;
-    width: 10%;
-    min-height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: white;
-    z-index: 2;
-    text-align: center;
-}
-
-.fa-house {
-    margin-top: 10px;
-}
-.fa-regular {
-    margin-bottom: 8px;
-}
-footer .fa-regular{
-    margin: 0;
-
-}
-
-
-.fa-solid {
-    margin-bottom: 8px;
-}
-
-.side-center {
-    visibility: hidden; 
-    margin-top: 10px;
-}
-
-.side-bottom {
-    margin-top: 224px;
-}
-
- .cat-flex { 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-.cat-flex li {
-    font-size: 12px;
-    color: #7b7777;
-    font-weight: 600;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 15px 0px;
-}
-.col {
-    flex-basis: calc(100 / 6 - 40px / 6);
-}
-.card {
-    height: 200px;
-    width: 200px;
-    text-align: center;
-}
-.square {
-    max-height: 170px;
-    max-width: 170px
-}
-
-
-
-
-
-
-
-footer {
-    background-color: lightslategrey;
-    min-height: 60px;
-    min-width: 100%;
-    position: sticky;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    z-index: 3;
-   
-
-}
-
-#footer .card {
-    height: 30px;
-    width: 30px;
-}
-
-
-
-.footer-left {
-
-    min-width: 60px;
-    display: flex;
-    gap: 10px;
-    margin-left: 2px;
-    
-
-}
-.footer-center {
-    flex-grow: 1;
-   
-    min-width: 60px;
-    align-self: flex-start;
-    margin-top: 8px;
-}
-
-.commands {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-}
-.fa-circle-play {
-    font-size: 28px;
-   
-}
-
-.time-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
- ul .bar {
-    background-color:white;
-    height: 3px;
-    width: 100px;
-    border: 1px;
-}
-.footer-right {
-    
-  min-width: 60px;
-}
-
-.options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.options .fa-solid {
-    font-size: 10px;
-}
-*/

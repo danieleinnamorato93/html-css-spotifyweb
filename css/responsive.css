@@ -1,0 +1,46 @@
+@media screen and (min-width: 576px) {
+.sidebar {width: 130px;
+}
+
+.side-top {
+    padding-top: 20px;
+}
+
+.side-center {
+    visibility: visible;
+}
+.side-center , .side-top , li {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.side-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding-top: 2px;
+    margin: 0;
+}
+
+.side-top li:nth-child(2) i::after {
+    content: ' Home';
+    color: white;
+    font-size: 10px;
+    margin-left: 2px;
+    font-family: 'Montserrat';
+}
+.side-top li:nth-child(3) i::after {
+    content: ' Cerca';
+    color: white;
+    font-size: 10px;
+    margin-left: 2px;
+    font-family: 'Montserrat';
+}
+.side-top li:nth-child(4) i::after {
+    content: ' La tua libreria';
+    color: white;
+    font-size: 10px;
+    margin-left: 2px;
+   font-family: 'Montserrat';
+}

@@ -10,7 +10,7 @@ body {
     background-color: #141922;
     font-family: 'Montserrat' , 'sans-serif';
   
-    
+/*    
 }
 h3 {
     color: white;
@@ -71,7 +71,7 @@ hr {
 
 
 
-/*MAIN*/
+
 
 main {
     min-height: 100vh;
@@ -171,7 +171,7 @@ footer .fa-regular{
 
 
 
-/*FOOTER*/
+
 footer {
     background-color: lightslategrey;
     min-height: 60px;
@@ -251,3 +251,4 @@ footer {
 .options .fa-solid {
     font-size: 10px;
 }
+*/

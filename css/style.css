@@ -165,10 +165,8 @@ body {
     .create {
         display: flex;
         align-items: center;
-        
     }
-    .add {
-        
+    .add {  
         margin: 2px;
         color: black;
         height: 30px;
@@ -207,12 +205,12 @@ body {
    .cat-flex hr {
         width: 35px;
         border-color: #ADFF2F;
-        
     }
 
     section > h3 {
         margin-top: 20px;
         margin-bottom: 15px;
+        margin-left: 15px;
     }
     /*Card_main_content*/
 
@@ -220,32 +218,53 @@ body {
             display: flex;
             flex-wrap: wrap;
             padding: 15px;
-        
         }
-        
-        
         .col {
             flex-basis: 50%;
             margin-bottom: 10px;
         }
         .col-2 {
-            flex-basis: calc(100% / 2);
+            flex-basis: 50%;
             margin-bottom: 10px;
         }
        
         .card {
-            min-width: 130px;
             text-align: center;
             margin-right: 10px;
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
         }
-      
+        
+        .card .square {
+            position: relative;
+        }
+        .card .play {
+            position: absolute;
+            display: flex;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 25px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: greenyellow;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+        }
+        
+        .card:hover .play {
+            opacity: 1;
+        }
+        
         .mini-square {
           
             max-width: 30px;
         }
         .circle {
-            max-height: 170px;
-            max-width: 170px;
+           
+            max-width: 190px;
             border-radius: 50%;
             text-align: center;
         }
@@ -268,14 +287,22 @@ body {
             gap: 10px;
             margin-left: 2px;
             align-items: center;
-            
         
         }
-        
+     
+        .now-playing {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .now_playing li:last-child {
+            display: block;
+
+        }
        
 
         .footer-center {
-            flex-grow: 1;
+           flex-grow: 1;
            
             min-width: 60px;
             align-self: flex-start;
@@ -296,19 +323,28 @@ body {
         
         .time-bar {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 5px;
         }
-         ul .bar {
+         .time-bar hr {
             background-color:white;
             height: 3px;
             width: 100px;
             border: 1px;
         }
+        .options hr  {
+            background-color:white;
+            height: 3px;
+            width: 100px;
+            border: 1px;
+            margin-right: 10px;
+        }
         .footer-right {
             
           min-width: 60px;
+       
         }
         
         .options {

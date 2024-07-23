@@ -62,7 +62,6 @@
     margin-top: 15px;
 }
 .hidden-bar {
-    
     display: block; }
 
     .side-bottom li:first-child i::after {
@@ -80,13 +79,13 @@
         margin-left: 2px;
         font-family: 'Montserrat';
     }
+ 
+    .footer-left li {
 
-
-    .now_playing li {
         margin-top: 0px;
     }
+   
     
-
 
 @media screen and (min-width: 768px) {
     .col {
@@ -95,8 +94,14 @@
     }
     .col-2 {
        
-        flex-basis: 16%;
+        flex-basis: 25%;
             
+        }
+
+        .time-bar hr {
+      
+            width: 200px;
+        
         }
         
     }
@@ -107,6 +112,11 @@
     .col {
         flex-basis: calc(100% / 6 );
        
+    }
+    .time-bar hr {
+      
+        width: 400px;
+    
     }
 
 }

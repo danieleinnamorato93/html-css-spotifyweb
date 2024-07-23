@@ -35,14 +35,14 @@
 }
 .side-top li:nth-child(3) i::after {
     content: ' Cerca';
-    color: white;
+    color: grey;
     font-size: 10px;
     margin-left: 2px;
     font-family: 'Montserrat';
 }
 .side-top li:nth-child(4) i::after {
     content: ' La tua libreria';
-    color: white;
+    color: grey;
     font-size: 10px;
     margin-left: 2px;
    font-family: 'Montserrat';

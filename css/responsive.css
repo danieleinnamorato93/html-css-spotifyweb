@@ -80,3 +80,33 @@
         margin-left: 2px;
         font-family: 'Montserrat';
     }
+
+
+    .now_playing li {
+        margin-top: 0px;
+    }
+    
+
+
+@media screen and (min-width: 768px) {
+    .col {
+        flex-basis: 25%;
+        
+    }
+    .col-2 {
+       
+        flex-basis: 16%;
+            
+        }
+        
+    }
+
+
+
+@media screen and (min-width: 992px) {
+    .col {
+        flex-basis: calc(100% / 6 );
+       
+    }
+
+}
